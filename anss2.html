@@ -1,0 +1,193 @@
+
+<html>
+<head>
+    <title> Details Form</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        h2{
+            font-size: 40px; text-align: center; color: rgb(0, 88, 103);
+        }
+        table{
+            margin-left: auto; margin-right: auto;
+        }
+        table, th, td{
+            border: 1px solid rgb(245, 192, 192); border-collapse: collapse; ;
+        }
+        th{
+            text-align: center; background-color: #fda4a5;
+        }
+        td{
+            background-color: #fda4a5; height: 50px; padding-left: 15px;
+        }
+        .l{
+            text-align: center;
+        }
+        .foot{
+            text-align: right; padding-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    
+    <table width="80%">
+
+        <tr>
+            <th colspan="2"><h2>DETAILS</h2></th>
+            
+        </tr>
+        <tr>
+            <td class="l"><label for="fname"><b>First name&nbsp;&nbsp;</b></label>
+            </td>
+            <td><input type="text" id="fname" name="fname"></td>
+        </tr>
+
+        <tr>
+            <td class="l"><label for="fname"><b>Last name&nbsp;&nbsp;</b></label></td>
+            <td><input type="text" id="fname" name="fname"></td>
+        </tr>
+
+        <tr>
+            <td class="l"><label for="Gender"><b>Gender &nbsp;&nbsp;</b></label></td>
+            <td> <input type="radio" value="male">Male 
+                <input type="radio" value="female">Female
+            <input type="radio" value="other">Other </td>
+        </tr>
+
+        <tr>
+            <td class="l"><label for=" interest"><b>Sbject of Interest&nbsp;&nbsp;</b></label></td>
+            <td> <input type="text" placeholder="Enter Interest"></td>
+        </tr>
+
+        <tr>
+            <td class="l"><label><b>Languages Known&nbsp;&nbsp;</b></label></td>
+            <td><input type="checkbox" id="lang1" name="lang1" value="Hindi">
+                <label for="Hindi"> &nbsp;Hindi</label> 
+   
+                <input type="checkbox" id="lang2" name="lang2" value="eng">
+               <label for="eng"> &nbsp;English</label> 
+   
+                <input type="checkbox" id="lang3" name="lang3" value="Mandarin">
+                <label for="Mandarin"> &nbsp;Mandarin</label>
+   
+                <input type="checkbox" id="lang4" name="lang4" value="Spanish">
+                <label for="Spanish"> &nbsp;Spanish</label>
+   
+                <input type="checkbox" id="lang5" name="lang5" value="French">
+               <label for="French">&nbsp; French</label><br><br>
+   
+               <input type="checkbox" id="lang6" name="lang6" value="Tamil">
+                <label for="Tamil"> Tamil</label>
+   
+                <input type="checkbox" id="lang7" name="lang7" value="Japnese">
+               <label for="Japnese">&nbsp;Japnese</label>
+   
+                <input type="checkbox" id="lang8" name="lang8" value="Italian">
+                <label for="Italian">&nbsp;Italian</label>
+   
+                <input type="checkbox" id="lang9" name="lang9" value="Malay">
+               <label for="Malay">&nbsp; Malay</label>
+   
+                <input type="checkbox" id="lang10" name="lang10" value="German">
+                <label for="German"> &nbsp;German</label>
+   
+                <input type="checkbox" id="lang10" name="lang10" value="Other">
+                <label for="Other"> &nbsp;Other</label></td>
+        </tr>
+
+        <tr>
+            <td class="l"><label for="birthday"><b>Date of Birth &nbsp;&nbsp;</b></label></td>
+            <td><input type="date" id="birthday" name="birthday"></td>
+        </tr>
+
+        <tr>
+            <td class="l"><label for="contact no"><b>Contact No.&nbsp;&nbsp;</b></label></td>
+            <td><input type="tel" id="tel"  placeholder="contact no." size="20"> <br>
+             </td>
+        </tr>
+
+        <tr>
+            <td class="l"><label for="Education Qualification"><b>Education Qualification&nbsp;&nbsp;</b></label></td>
+            <td><input type="text" placeholder="Education Qualification" ></td>
+        </tr>
+
+        <tr>
+            <td class="l"><label for="äddress"><b>Address&nbsp;&nbsp;</b></label></td>
+            <td><input type="text" placeholder="Enter address" ></td>
+        </tr>
+
+        <tr>
+            <td class="l"><label for="pincode"><b>Pin Code&nbsp;&nbsp;</b></label></td>
+            <td><input type="number"  id="pincode" name="zip" ></td>
+        </tr>
+
+        <tr>
+            <td class="l"><label><b>Country&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                
+            </td>
+            <td><select id="country" name="country">
+                <option value="India">India </option></select></td>
+                <tr>
+                    <td class="l"><label><b>State &nbsp;&nbsp;</b></label></td>
+                    <td>
+                        <select id="country-state" name="country-state">
+                            <option value="AN">Andaman and Nicobar Islands</option>
+                            <option value="AP">Andhra Pradesh</option>
+                            <option value="AR">Arunachal Pradesh</option>
+                            <option value="AS">Assam</option>
+                            <option value="BR">Bihar</option>
+                            <option value="CH">Chandigarh</option>
+                            <option value="CT">Chhattisgarh</option>
+                            <option value="DN">Dadra and Nagar Haveli</option>
+                            <option value="DD">Daman and Diu</option>
+                            <option value="DL">Delhi</option>
+                            <option value="GA">Goa</option>
+                            <option value="GJ">Gujarat</option>
+                            <option value="HR">Haryana</option>
+                            <option value="HP">Himachal Pradesh</option>
+                            <option value="JK">Jammu and Kashmir</option>
+                            <option value="JH">Jharkhand</option>
+                            <option value="KA">Karnataka</option>
+                            <option value="KL">Kerala</option>
+                            <option value="LA">Ladakh</option>
+                            <option value="LD">Lakshadweep</option>
+                            <option value="MP">Madhya Pradesh</option>
+                            <option value="MH">Maharashtra</option>
+                            <option value="MN">Manipur</option>
+                            <option value="ML">Meghalaya</option>
+                            <option value="MZ">Mizoram</option>
+                            <option value="NL">Nagaland</option>
+                            <option value="OR">Odisha</option>
+                            <option value="PY">Puducherry</option>
+                            <option value="PB">Punjab</option>
+                            <option value="RJ">Rajasthan</option>
+                            <option value="SK">Sikkim</option>
+                            <option value="TN">Tamil Nadu</option>
+                            <option value="TG">Telangana</option>
+                            <option value="TR">Tripura</option>
+                            <option value="UP">Uttar Pradesh</option>
+                            <option value="UT">Uttarakhand</option>
+                            <option value="WB">West Bengal</option>
+                        </select></td>
+                </tr>
+
+            
+            
+        <tr>
+            <td class="l"><label for="email"><b>Email&nbsp;&nbsp;</b></label></td>
+            <td><input type="text" placeholder="Enter Email" ></td>
+        </tr>
+
+        <tr>
+            
+            <td  class="foot"colspan="2">&nbsp;&nbsp;<input type="reset" value="Reset">
+            <input type="submit" value="Submit"></td>
+        </tr>
+
+        
+    </table>
+</form>
+</body>
+</html>
